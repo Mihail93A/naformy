@@ -24,7 +24,9 @@ allure {
 dependencies {
     testImplementation (
             "com.codeborne:selenide:6.16.0",
-            "org.junit.jupiter:junit-jupiter:5.9.3")
+            "org.junit.jupiter:junit-jupiter:5.9.3",
+            "io.qameta.allure:allure-selenide:2.19.0"
+    )
 }
 
 tasks.withType(JavaCompile) {
